@@ -1,4 +1,5 @@
 import './Style/Navbar.css';
+import Ham from '../svg/Ham.svg'
 
 function Navbar() {
   return (
@@ -17,6 +18,11 @@ function Navbar() {
                <li><a href="">Портфолио</a></li>
                <button>Заказат проект</button>
             </ul>
+              <ol className="ham">
+                 <li></li>
+                 <li></li>
+                 <li></li>
+               </ol>
          </div>
       </div>
   );

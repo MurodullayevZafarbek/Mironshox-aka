@@ -57,3 +57,18 @@
    color: #37474F;
    margin-top: 20px;
 }
+@media only screen and (max-width : 780px){
+   .About .container{
+      flex-direction: column-reverse;
+   }
+   .About .container img{
+      width: 100%;
+      margin-bottom: 50px;
+   }
+   .About .container .content{
+      width: 100%;
+   }
+   .About .container .content .btn-second{
+      margin-top: 50px;
+   }
+}
