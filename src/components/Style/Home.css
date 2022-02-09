@@ -1,0 +1,12 @@
+.Home .container{
+   min-height:740px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.Home .container h1{
+   margin-bottom: 30px;
+}
+.Home .container img{
+   width: 50%;
+}

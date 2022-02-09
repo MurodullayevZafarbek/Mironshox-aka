@@ -1,0 +1,118 @@
+.Registration{
+   width: 100%;
+   height: 700px;
+   padding: 85px 0;
+   background: #F6F6F6;
+}
+.Registration .container{
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   height:100%;
+}
+.Registration .container form{
+   padding: 50px 107px;
+   width: 80%;
+   min-height:80%;
+   background: #FFFFFF;
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+}
+.Registration .container form h2{
+   text-align: center;
+   margin: 0 auto;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 134.3%;
+   color: #37474F;
+   margin-bottom: 25px;
+}
+.Registration .container form label{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 23px;
+   line-height: 141.3%;
+   color: #202020;
+}
+.Registration .container form>input{
+   margin-top: 30px;
+   outline: none;
+   width: 100%;
+   border:none;
+   padding: 6px 0;
+   border-bottom: 1px solid #202020;
+}
+.Registration .container form .btn{
+   display: flex;
+   justify-content: center;
+}
+.Registration .container form .check{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+}
+.Registration .container form .check .bordered{
+   width: 30px;
+   height: 2px;
+   background-color: rgba(32, 32, 32, 0.6);
+   margin: 0 10px;
+}
+.Registration .container form .check label{
+   width: 25px;
+   height: 25px;
+   position: relative;
+   border-radius: 5px;
+}
+.Registration .container form .check label input{
+   position:absolute;
+   left: 0;
+   top: 0;
+   width: 25px;
+   height: 25px;
+   opacity: 0;
+   z-index: 1;
+}
+.Registration .container form .check label .checkbox{
+   position:absolute;
+   top: 0;
+   left: 0;
+   width: 25px;
+   height: 25px;
+   border-radius: 5px;
+   border: 3px solid #DFBB7F;
+}
+.Registration .container form .check label:hover input ~ .checkbox{
+   background-color: #DFBB7F;
+}
+.Registration .container form .check label input:checked ~ .checkbox{
+   background-color: #DFBB7F;
+}
+.Registration .container form .check label div::after{
+   content: "";   
+   position: absolute;
+   display: none;
+}
+.Registration .container form .check label input:checked ~ div::after{
+   display: block;
+}
+.Registration .container form .check label div::after {
+   left: 6px;
+   top: 1px;
+   width: 5px;
+   height: 10px;
+   border: solid white;
+   border-width: 0 3px 3px 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(40deg);
+}
+.Registration .container form .btn{
+   margin-top: 45px;
+   display: flex;
+   align-items: center;
+}
+.Registration .container form .btn>div{
+   margin: 0 20px;
+}

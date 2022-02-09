@@ -1,0 +1,34 @@
+.OurResult{
+   width: 100%;
+   padding: 40px 0;
+   background: #F6F6F6;
+}
+.OurResult .results{
+   margin-top: 40px;
+   display: flex;
+   justify-content:space-between;
+}
+.OurResult .results .result{
+   width: 255px;
+   height:110px;
+   display: flex;
+   flex-direction:column;
+   justify-content:space-between;   
+}
+.OurResult .results h3{
+   font-style: normal;
+   font-weight: 800;
+   font-size: 48px;
+   line-height: 64px;
+   color: #DFBB7F;
+}
+.OurResult .results p{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 120%;
+   color: #202020;
+}
+.OurResult .results  hr{
+      border: 3px solid #202020;
+}

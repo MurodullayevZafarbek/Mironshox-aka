@@ -1,0 +1,38 @@
+.Design{
+   width: 100%;
+   min-height: 650px;
+}
+.Design .container{
+   display: flex;
+   justify-content:space-between;
+}
+.Design .container img{
+   width: 50%;
+}
+.Design .container .left>p{
+   margin-top: 50px;
+   margin-bottom: 30px  ;
+}
+.Design .container .left .icons{
+   display: flex;
+   justify-content:space-between;
+   margin-bottom: 40px;
+}
+.Design .container .left .icons .icon{
+   width: 156px;
+   height: 141px;
+   background: #F6F6F6;
+   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   padding: 14px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.Design .container .left .icons .icon p{
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;  
+   line-height: 141.3%;
+   color: #202020;
+}

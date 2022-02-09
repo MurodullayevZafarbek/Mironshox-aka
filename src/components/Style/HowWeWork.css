@@ -1,0 +1,51 @@
+.HowWeWork{
+   width: 100%;
+   background: #F6F6F6;
+   padding: 45px 0 85px 0;
+}
+.HowWeWork .container .WeWork{
+   display: flex;
+   justify-content:space-between;
+   text-align:center;
+   margin-top: 75px;
+}
+.HowWeWork .container .WeWork .icon{
+   position: relative;
+   width: 18%;
+}
+.HowWeWork .container .WeWork .icon>div{
+   width: 98px;
+   height:98px;
+   background: #FFFFFF;
+   border-radius:50%;
+   display: flex;
+   justify-content:center;
+   align-items:center;  
+   margin: 0 auto;
+}
+.HowWeWork .container .WeWork .icon h4{
+   margin-top: 6px;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+   color: #000000;
+}
+.HowWeWork .container .WeWork .icon p{
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 21px;
+   color: #000000;
+   margin-top: 2px;
+}
+.HowWeWork .container .WeWork .line{
+   position: absolute;  
+   left: 19.8%;
+   width: 60%;
+   height: 2px;
+   z-index: 0;
+   margin-top: 2.9%;
+   display: flex;
+   overflow:hidden;  
+}

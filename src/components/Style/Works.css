@@ -1,0 +1,97 @@
+.Works{
+   width: 100%;
+   padding: 100px 0;
+}
+.Works ul{
+   margin: 40px 0 25px 0;
+   display: flex;
+   justify-content:space-between;
+   text-align:center;
+}
+.Works ul li a{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 120%;
+   color: #666666;
+   letter-spacing: .8px;
+}
+.Works ul li:hover a{
+   letter-spacing: .01px;
+   font-weight:600;
+   font-size: 16px;
+   line-height: 120%;
+   color: #202020;
+   border-bottom: 3px solid #DFBB7F;
+}
+.Works .projects{
+   width: 100%;
+   height: 700px;
+}
+.Works .projects .project{
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   height: 50%;
+}
+.Works .projects .project .project1{
+   width: 33.4%;
+   height:100%;
+   position: relative;
+   z-index: 0;
+   transition: all 1s;
+}
+.Works .projects .project .project1:before{
+   content:"";
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   background-color: rgba(0, 0, 0, .5);
+   z-index: 1;
+   display:none;
+}
+.Works .projects .project .project1 img{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height:100%;
+   object-fit: cover;
+}
+.Works .projects .project .project1 .text{
+   opacity: 0;
+   width: 100%;
+   position: absolute;
+   left: 15px;
+   bottom: 25px;
+   z-index: 2;
+}
+.Works .projects .project .project1:hover .text{
+   opacity: 1;
+   transition: all 1s;
+}
+.Works .projects .project .project1:hover::before{
+   display:block;
+}
+.Works .projects .project .project1 .text h3{
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   color: #FFFFFF;
+}
+.Works .projects .project .project1 .text p{
+   font-style: normal;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 24px;
+   color: #FFFFFF;   
+}
+.Works .projects .project .project1 .text .border{
+   position: absolute;
+   width: 100%;
+   height: 7px;
+   left: -15px;
+   bottom: -25px;
+   background: #DFBB7F;
+}
