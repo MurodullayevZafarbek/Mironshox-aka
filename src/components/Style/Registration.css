@@ -1,6 +1,6 @@
 .Registration{
    width: 100%;
-   height: 700px;
+   min-height: 700px;
    padding: 85px 0;
    background: #F6F6F6;
 }
@@ -69,8 +69,8 @@
    position:absolute;
    left: 0;
    top: 0;
-   width: 25px;
-   height: 25px;
+   width: 100%;
+   height: 100%;
    opacity: 0;
    z-index: 1;
 }
@@ -78,8 +78,8 @@
    position:absolute;
    top: 0;
    left: 0;
-   width: 25px;
-   height: 25px;
+   width: 100%;
+   height: 100%;
    border-radius: 5px;
    border: 3px solid #DFBB7F;
 }
@@ -115,4 +115,39 @@
 }
 .Registration .container form .btn>div{
    margin: 0 20px;
+}
+@media only screen and (max-width: 900px){
+   .Registration .container form{
+      width: 100%;
+      padding: 50px 30px;
+   }
+}
+@media only screen and (max-width: 600px){
+   .Registration .container form{
+      padding: 25px 15px;
+   }
+   .Registration .container form h2{
+      font-size:16px;
+      margin-bottom: 15px;
+   }
+   .Registration .container form label{
+      font-size: 14px;
+   }
+   .Registration .container form input{
+      margin-top: 5px;
+      font-size: 14px;
+   }
+   .Registration .container form .check{
+      margin-top: 20px;
+   }
+   .Registration .container form .check input{
+      margin: 0;
+   }
+   .Registration .container form .check .bordered{
+      width: 15px;
+      margin: 0 5px;
+   }
+   .Registration .container form .btn{
+      margin-top: 30px;
+   }
 }

@@ -95,3 +95,64 @@
    bottom: -25px;
    background: #DFBB7F;
 }
+.ul{
+   display: none; 
+}
+@media only screen and (max-width: 800px){
+   .Works .container{
+      position: relative;
+   }
+   .Works .projects{
+      height: 100%;
+   }
+   .Works .projects .project{
+      flex-direction: column;
+      width: 100%;
+   }
+   .Works .projects .project .project1{
+      width: 100%;
+      height: 300px;
+   }
+   .Works .container h1{
+      margin-bottom: 15px;
+   }
+   .Works .container>ul{
+      display: none;
+   }
+   .Works .ul,.Works .ul ul{
+      display: block;
+      margin: 0;
+      text-align:start;
+   }
+   .Works .ul:hover ul{
+      display: block;
+      position: relative;
+      z-index: 10;
+      background-color:white;
+      padding: 10px 20px;
+   }
+   .Works .ul ul{
+      display: none;
+   }
+   .Works .ul{
+      position: absolute;
+      top: 20px;
+      right: 0;
+      flex-direction: column;
+      text-align: end;
+   }
+   .Works .ul ul li{
+      margin: 10px 0;
+   }
+   .Works .ul li a{
+      font-size: 14px;
+   }
+}
+@media only screen and (max-width: 600px){
+   .Works .ul{
+      top: 10px;
+   }
+   h1{
+      font-size: 28px;
+   }
+}

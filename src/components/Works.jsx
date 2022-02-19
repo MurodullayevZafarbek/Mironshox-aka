@@ -14,6 +14,18 @@ function Works() {
               <li><a href="">Лого брендинг</a></li>
               <li><a href="">СММ</a></li>
            </ul>
+           <li className="ul">
+           Все проекты
+            <ul>
+               <li><a href=""></a></li>
+               <li><a href="">Landing page</a></li>
+               <li><a href="">Корпоративные сайты </a></li>
+               <li><a href="">Интернет магазини</a></li>
+               <li><a href="">Мобильные приложения</a></li>
+               <li><a href="">Лого брендинг</a></li>
+               <li><a href="">СММ</a></li>
+            </ul>
+           </li>
            <div className="projects">
               <div className="project">
                   <div className="project1">

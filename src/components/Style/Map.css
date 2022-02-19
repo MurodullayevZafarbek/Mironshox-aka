@@ -65,3 +65,22 @@
 .Map .iframe form textarea{
    height: 120px;
 }
+
+@media only screen and (max-width: 600px){
+   .Map .iframe .container{
+      position: relative;
+   }
+   .Map .iframe form{
+      left: 0;
+      width: 100%;
+   }
+   .Map .iframe form h2{
+      font-size: 18px;
+   }
+   .Map .iframe form label{
+      font-size: 14px;
+   }
+   .Map .iframe form input,textarea{
+      font-size: 14px;
+   }
+}

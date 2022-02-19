@@ -18,22 +18,32 @@ function WeWork() {
                   </div>
                </div>
             </div>
-            <div className="cards">
-               <div className="card">
-                  <img src="Webdesign (1).png" alt="" />
-                  <h4>Figma</h4>
-               </div>
-               <div className="card">
-                  <img src="Webdesign (2).png" alt="" />
-                  <h4>Figma</h4>
-               </div>
-               <div className="card">
-                  <img src="Webdesign (3).png" alt="" />
-                  <h4>Figma</h4>
-               </div>
-               <div className="card">
-                  <img src="Webdesign (4).png" alt="" />
-                  <h4>Figma</h4>
+            <div className="right">
+               <div className="cards">
+                  <div className="card">
+                     <img src="Webdesign (1).png" alt="" />
+                     <h4>Figma</h4>
+                  </div>
+                  <div className="card">
+                     <img src="Webdesign (2).png" alt="" />
+                     <h4>Figma</h4>
+                  </div>
+                  <div className="card">
+                     <img src="Webdesign (3).png" alt="" />
+                     <h4>Figma</h4>
+                  </div>
+                  <div className="card">
+                     <img src="Webdesign (4).png" alt="" />
+                     <h4>Figma</h4>
+                  </div>
+                  <div className="card">
+                     <img src="Webdesign (4).png" alt="" />
+                     <h4>Figma</h4>
+                  </div>
+                  <div className="card">
+                     <img src="Webdesign (4).png" alt="" />
+                     <h4>Figma</h4>
+                  </div>
                </div>
             </div>
          </div>

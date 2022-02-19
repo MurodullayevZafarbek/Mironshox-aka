@@ -9,7 +9,7 @@
    justify-content:space-between;
 }
 .OurResult .results .result{
-   width: 255px;
+   width: 22%;
    height:110px;
    display: flex;
    flex-direction:column;
@@ -31,4 +31,12 @@
 }
 .OurResult .results  hr{
       border: 3px solid #202020;
+}
+@media only screen and (max-width: 600px){
+   .OurResult .results{
+      flex-direction: column;
+   }
+   .OurResult .results .result{
+      width: 100%;
+   }
 }

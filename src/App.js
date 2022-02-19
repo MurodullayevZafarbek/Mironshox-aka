@@ -19,14 +19,14 @@ function App() {
       <Home />
       <About />
       <Experences />
-      {/*<Design />
+      <Design />
       <OurResult />
       <Works />
       <HowWeWork />
       <WeWork />
       <Registration />
       <Map />
-      <Footer />*/}
+      <Footer />
     </div>
   );
 }

@@ -29,6 +29,18 @@
    flex-direction: column;
    justify-content: space-between;
    margin-right: 20px;
+   position: relative;
+}
+.Design .container .left .icons .icon:hover::before{
+   content: "";
+   position: absolute;
+   bottom:0;
+   left: 0;
+   width: 100%;
+   height: 8px;
+   background: #DFBB7F;
+   z-index: 1;
+   border-radius: 0 0 10px 10px;
 }
 .Design .container .left .icons .icon p{
    font-style: normal;
@@ -40,5 +52,30 @@
 @media only screen and (max-width: 1000px){
    .Design .container .left .icons .icon{
       width: 110px;
+   }
+}
+@media only screen and (max-width: 800px){
+   .Design .container {
+      flex-direction: column;
+   }
+   .Design .container img{
+      display: none; 
+   }
+   .Design .container .left>p{
+      margin-top: 20px;
+      margin-bottom: 15px;
+   }
+}
+@media only screen and (max-width: 400px){
+   .Design .container .left .ic{
+      display: flex;
+      justify-content: space-between;
+   }
+   .Design .container .left .icons{
+      flex-direction: column;
+      margin-right: 20px;
+   }
+   .Design .container .left .icons .icon{
+      margin: 0 0 20px 0;
    }
 }
